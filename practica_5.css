@@ -10,18 +10,24 @@ header{
     padding-top: 15px;
 }
 
+
 nav li {
-    float:right;
-    width:10%;
-    text-align:center;
+
     list-style-type: none;
+    padding-right: 50px;
+    float: right;
     margin-bottom: 15px;
+}
+
+ul{
+    padding-right: 65px;
+    margin-top: 0px;
 }
 
 a{
     text-decoration: none;
     color: #000;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 #section_1{
@@ -89,7 +95,7 @@ footer {
 #div_0{
     border-left: 5px;
     border-style: solid;
-    height: 107px;
+    height: 100px;
     list-style-type: none;
     border-color: darkred;
     position: absolute;
@@ -100,7 +106,7 @@ footer {
 
 #div1{
     border-style: solid;
-    border-color: rgb(197, 197, 197);
+    border-color: #eae4e4;
     border-bottom-width: thin;
 }
 
