@@ -1,0 +1,132 @@
+body{
+    margin: 0px 7px 10px 0px;
+}
+
+header{
+    list-style-type: none;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+nav li {
+    float:right;
+    width:10%;
+    text-align:center;
+    color:#fff;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#section_1{
+    background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+
+#section_2{
+    height: 120px;
+    background-color: rgb(249, 29, 0);
+    bottom: auto;;
+}
+
+#img_1{
+    padding-left: 105px;
+    padding-top: 40px;
+}
+
+h1.texto1{
+    color:white;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+h3.texto1{
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    font-weight: normal;
+    font-size: 29px;
+}
+
+
+h1.texto2{
+    position: absolute;
+    color:white;
+    margin-left: 355px;
+    top: 29px;
+    font-size: 57px;
+    font-weight: 900;
+    line-height: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3.texto3{
+    color:#ffff;
+    padding-left: 355px;
+    margin-top: 80px;
+    font-weight: normal;
+    font-size: 29px;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    margin-top: 90px;
+}
+
+#div1{
+    border: 8; border-style: solid;
+    border-color: rgb(250, 216, 215);
+    list-style-type: none;
+}
+
+#div_2{
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 240px 0px 10px 0px;
+}
+
+#div_3{
+    font-weight: bold;
+}
+
+#div_0{
+    border-left: 5px;
+    border-style: solid;
+    height: 107px;
+    list-style-type: none;
+    border-color: darkred;
+    position: absolute;
+    float: right;
+    display: flex;
+    right: 0px;
+}
+
+#div_4{
+    height: 127px;
+    border-left: 5px;
+    border-style: solid;
+    position: absolute;
+    border-color: darkred;
+    float: right;
+    display: flex;
+    right: 0px;
+}
