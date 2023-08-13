@@ -1,6 +1,6 @@
 
 body{
-    margin: 0px 6.5px 10px 0px;
+    margin: 0px 6px 10px 0px;
 }
 
 header{
@@ -14,13 +14,14 @@ nav li {
     float:right;
     width:10%;
     text-align:center;
-    color:#fff;
     list-style-type: none;
     margin-bottom: 15px;
 }
 
 a{
     text-decoration: none;
+    color: #000;
+    font-weight: 600;
 }
 
 #section_1{
@@ -32,13 +33,6 @@ a{
     background-size: 100% 100%;
     background-position: cover;
     background-repeat: no-repeat;
-    color: red;
-}
-
-#section_2{
-    height: 120px;
-    background-color: rgb(249, 29, 0);
-    bottom: auto;;
 }
 
 #img_1{
@@ -92,11 +86,22 @@ footer {
     margin-top: 90px;
 }
 
+#div_0{
+    border-left: 5px;
+    border-style: solid;
+    height: 107px;
+    list-style-type: none;
+    border-color: darkred;
+    position: absolute;
+    float: right;
+    display: flex;
+    right: 0px;
+}
 
 #div1{
-    border: 8; border-style: solid;
-    border-color: rgb(250, 216, 215);
-    list-style-type: none;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    border-bottom-width: thin;
 }
 
 #div_2{
@@ -110,17 +115,7 @@ footer {
     font-weight: bold;
 }
 
-#div_0{
-    border-left: 5px;
-    border-style: solid;
-    height: 107px;
-    list-style-type: none;
-    border-color: darkred;
-    position: absolute;
-    float: right;
-    display: flex;
-    right: 0px;
-}
+
 
 #div_4{
     height: 127px;
