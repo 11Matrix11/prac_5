@@ -1,13 +1,15 @@
 .contenedor{
-    width: 100%;
+    width: 99.5%;
     max-width: 2000px;
-    margin: 0, auto;
+    padding: 100, auto;
+    margin: 150;
     overflow: hidden;
 }
 
 body{
     margin: 0px 7px 10px 0px;
     width: 100%;
+
 }
 
 header{
@@ -139,4 +141,19 @@ div_0.1
     float: right;
     display: flex;
     right: 0px;
+}
+
+@media screen and (min-width: 250px) {
+    body{
+    background-color: red;
+    }
+    nav li {
+        float:right;
+        width:25%;
+        text-align:center;
+        color:#fff;
+        list-style-type: none;
+        margin-bottom: 15px;
+    }
+
 }
