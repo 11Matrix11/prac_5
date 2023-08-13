@@ -1,3 +1,10 @@
+.contenedor{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0, auto;
+    overflow: hidden;
+}
+
 body{
     margin: 0px 7px 10px 0px;
     width: 100%;
@@ -91,6 +98,8 @@ footer {
     padding: 0px;
     margin-top: 90px;
 }
+
+div_0.1
 
 #div1{
     border: 8; border-style: solid;
